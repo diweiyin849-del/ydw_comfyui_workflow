@@ -1,0 +1,39 @@
+# 本地工作流索引与个人配置
+.index.json
+.env
+.env.*
+!.env.example
+
+# 模型权重
+/models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+
+# 输入素材、生成结果与临时文件
+/input/
+/output/
+/outputs/
+/temp/
+/tmp/
+*.log
+*.tmp
+*.bak
+
+# Python 环境与缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
